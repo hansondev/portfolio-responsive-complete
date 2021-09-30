@@ -366,6 +366,10 @@ img{
 }
 
 /* ===== WORK =====*/
+.work__subtitle{
+  margin-bottom: var(--mb-2);
+}
+
 .work__container{
   row-gap: 2rem;
 }
@@ -381,6 +385,8 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
+
+
 
 /* ===== CONTACT =====*/
 .contact__input{
