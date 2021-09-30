@@ -57,5 +57,7 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200}); 
 
 
+var submit = document.getElementsByClassName("contact__form");
+x[0].submit(); // Form submission
 
 
