@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font and typography =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -288,18 +288,79 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
-  width: 95%;
+.skills__adobeps{
+  width: 80%;
 }
+.skills__adobeai{
+  width: 75%;
+}
+.skills__adobelr{
+  width: 55%;
+}
+.skills__adobeid{
+  width: 45%;
+}
+
+.skills__adobepre{
+  width: 70%
+}
+
+.skills__adobeae{
+  width: 55%
+}
+
+.skills__fbads{
+  width: 90%
+}
+
+.skills__gads{
+  width: 80%
+}
+
+.skills__lnads{
+  width: 65%
+}
+
+.skills__fbpixel{
+  width: 85%
+}
+
+.skills__ganalytics{
+  width: 75%
+}
+
+.skills__gsearchconsole{
+  width: 65%
+}
+
+.skills__gtagmng{
+  width: 75%
+}
+
+.skills__wordpress{
+  width: 80%
+}
+
+.skills__server{
+  width: 70%
+}
+
+.skills__html5{
+  width: 50%
+}
+
 .skills__css{
-  width: 85%;
+  width: 40%
 }
-.skills__js{
-  width: 65%;
+
+.skills__php{
+  width: 40%
 }
-.skills__ux{
-  width: 85%;
+
+.skills__docker{
+  width: 50%
 }
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -403,7 +464,7 @@ img{
   .home__data{
     align-self: flex-end;
   }
-  .home__social{
+  .home__social{ 
     padding-top: 0;
     padding-bottom: 2.5rem;
     flex-direction: row;
@@ -414,8 +475,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
-    bottom: 15%;
+    width: 450px;
+    bottom: 10%;
   }
 
   .about__container, .skills__container{
@@ -445,6 +506,6 @@ img{
     margin-right: auto;
   }
   .home__img{
-    right: 10%;
+    right: 5%;
   }
 }
