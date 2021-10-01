@@ -223,6 +223,7 @@ img{
 .button{
   display: inline-block;
   background-color: var(--first-color);
+  align-items: center;
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
